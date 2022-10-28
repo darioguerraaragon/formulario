@@ -21,3 +21,48 @@
     width: 12%;
     height: 12%;
 }
+
+@media(max-width:850px){
+    section {
+        min-height: 100vh;
+    }
+    article {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 40vh;
+    }
+
+    .icon {
+        width: 15%;
+    }
+
+    form a {
+        text-align: center;
+    }
+
+    .div-btn {
+        min-width: 30vw;
+    }
+
+    .div1 {
+        width: 100%;
+    }
+
+    .div-formulario{
+        width: 100%;
+    }
+}
