@@ -11,4 +11,4 @@ def prueba(request):
     apellidos=request.get['apellidos']
     telefono=request.get['tfno']
     email=request.get['email']
-    return render(request,'autenticado.html'),{'nombre':nombre,'apellidos':apellidos,'tfno':telefono,'email':email}
+    return render(request,'autenticacion/autenticado.html'),{'nombre':nombre,'apellidos':apellidos,'tfno':telefono,'email':email}

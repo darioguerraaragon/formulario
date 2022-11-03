@@ -55,7 +55,7 @@ ROOT_URLCONF = 'ZeroProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/srammirez/Proyectos/ZeroProject/usersInfo/plantillas/'],
+        'DIRS': ['./usersInfo/plantillas/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
